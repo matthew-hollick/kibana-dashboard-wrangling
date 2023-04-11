@@ -1,0 +1,3 @@
+Deleting a dashboard in Elasticsearch will also delete its dependent objects such as visualizations, index patterns, saved searches, and so on, if they are not shared across other dashboards.
+
+However, if the dependent objects are shared across multiple dashboards, then they will not be deleted when a single dashboard is deleted. Instead, the dependent objects will still exist in Elasticsearch and can be used in other dashboards.
